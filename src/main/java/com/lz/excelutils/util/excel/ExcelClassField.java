@@ -1,11 +1,7 @@
 package com.lz.excelutils.util.excel;
  
 import java.util.LinkedHashMap;
- 
-/**
- * @author sunnyzyq
- * @date 2021/12/17
- */
+
 public class ExcelClassField {
  
     /** 字段名称 */
