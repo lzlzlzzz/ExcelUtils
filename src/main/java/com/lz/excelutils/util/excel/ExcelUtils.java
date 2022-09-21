@@ -947,6 +947,9 @@ public class ExcelUtils {
         if ("0.0".equals(str)) {
             return true;
         }
+        if ("".equals(str)) {
+            return false;
+        }
         for (int i = str.length(); --i >= 0; ) {
             if (!Character.isDigit(str.charAt(i))) {
                 return false;
